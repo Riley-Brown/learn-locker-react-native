@@ -24,11 +24,13 @@ import {
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen';
 import Navbar from './Components/Navbar';
+import Landing from './Components/Landing';
 
 const App = () => {
   return (
     <Fragment>
       <Navbar />
+      <Landing />
     </Fragment>
   );
 };
