@@ -23,11 +23,13 @@ import {
   DebugInstructions,
   ReloadInstructions
 } from 'react-native/Libraries/NewAppScreen';
+import Navbar from './Components/Navbar';
 
 const App = () => {
   return (
     <Fragment>
-      <StatusBar barStyle="dark-content" />
+      <Navbar />
+      {/* <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
@@ -36,11 +38,11 @@ const App = () => {
           <Header />
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>Hello from vs code</Text>
+              <Text style={styles.sectionTitle}>LearnLocker.dev</Text>
+              <Text style={styles.sectionDescription}>hey</Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
+              <Text style={styles.sectionTitle}>See Your test</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
@@ -60,7 +62,7 @@ const App = () => {
             <LearnMoreLinks />
           </View>
         </ScrollView>
-      </SafeAreaView>
+      </SafeAreaView> */}
     </Fragment>
   );
 };
